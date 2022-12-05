@@ -1,8 +1,7 @@
 ---
-- hosts: local, fedora, ubuntu
+- hosts: local #, fedora, ubuntu
   vars:
-    somevar: "value"
-    source: "package"
+    source: "snapcraft"
 
   roles:
   - Visual Studio Code/default

@@ -1,7 +1,11 @@
 ---
-- name: Install 
-  ansible.builtin.apt:
-    pkg:
-    - foo
-    - foo-tools
-  become: true
+- name: install from Snap
+  include_tasks: "{{role_path}}/tasks/common/snapcraft"
+  when: source == "snapcraft"
+
+# - name: Install
+#   ansible.builtin.apt:
+#     pkg:
+#     - foo
+#     - foo-tools
+#   become: true
