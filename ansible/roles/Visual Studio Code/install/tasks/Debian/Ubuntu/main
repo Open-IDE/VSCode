@@ -3,9 +3,6 @@
   include_tasks: "{{role_path}}/tasks/common/snapcraft"
   when: source == "snapcraft"
 
-# - name: Install
-#   ansible.builtin.apt:
-#     pkg:
-#     - foo
-#     - foo-tools
-#   become: true
+- name: install from official Deb file
+  include_tasks: "{{role_path}}/tasks/{{ ansible_os_family }}/official download"
+  when: source == "download"
