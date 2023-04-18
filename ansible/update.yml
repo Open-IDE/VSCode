@@ -1,0 +1,12 @@
+---
+- name: Update roles to newer OS Distro versions
+  hosts: local
+  vars:
+    role_name: "Visual Studio Code"
+
+  tasks:
+  - name: Create a symbolic link, to update role
+    ansible.builtin.shell: "ln -srf main.yml {{ansible_facts.distribution_major_version}}"
+    args:
+      chdir: "{{playbook_dir}}/roles/{{role_name}}/tasks/{{ansible_facts.os_family}}/{{ansible_facts.distribution}}"
+      creates: "{{ansible_facts.distribution_major_version}}"

@@ -1,0 +1,8 @@
+---
+- name: Setting host facts using complex arguments
+  ansible.builtin.set_fact:
+    source: snap 
+
+- ansible.builtin.include_role:
+    name: source
+

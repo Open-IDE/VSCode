@@ -4,4 +4,4 @@
     source: "snapcraft"
 
   roles:
-  - Visual Studio Code/default
+  - Visual Studio Code
