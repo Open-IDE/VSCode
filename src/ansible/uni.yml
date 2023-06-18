@@ -2,6 +2,7 @@
 - hosts: localhost #, fedora, ubuntu
   vars:
     source: "snapcraft"
+    ansible_become_password: u
 
   roles:
   - Visual Studio Code
