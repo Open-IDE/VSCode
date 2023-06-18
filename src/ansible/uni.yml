@@ -1,5 +1,5 @@
 ---
-- hosts: local #, fedora, ubuntu
+- hosts: localhost #, fedora, ubuntu
   vars:
     source: "snapcraft"
 
