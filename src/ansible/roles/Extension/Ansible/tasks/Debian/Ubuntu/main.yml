@@ -1,0 +1,5 @@
+- name: Install ansible-lint
+  ansible.builtin.apt:
+    pkg:
+    - ansible-lint
+  become: true

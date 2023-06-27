@@ -11,3 +11,5 @@
   loop:
   - redhat.ansible
   - ms-python.python
+
+- include_tasks: "{{ ansible_os_family }}/{{ ansible_distribution }}/main.yml"
