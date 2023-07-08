@@ -4,12 +4,11 @@
     creates: "{{ lookup('ansible.builtin.env', 'HOME') }}/.vscode/extensions/redhat.ansible-*"
 
 
-- name: Ansible Extensions (loop)
+- name: Favorite Ansible Extensions
   ansible.builtin.shell: "code --install-extension {{item}}"
   args:
     creates: "{{ lookup('ansible.builtin.env', 'HOME') }}/.vscode/extensions/{{item}}-*"
   loop:
   - redhat.ansible
   - ms-python.python
-
-- include_tasks: "{{ ansible_os_family }}/{{ ansible_distribution }}/main.yml"
+  notify: Install Ansible Lint

@@ -1,0 +1,6 @@
+- name: Pkg ansible-lint Debian
+  ansible.builtin.apt:
+    pkg:
+    - ansible-lint
+  become: true
+  when: ansible_os_family == 'Debian'

@@ -1,0 +1,2 @@
+- name: Install Ansible Lint
+  include_tasks: ansible-lint.yml
