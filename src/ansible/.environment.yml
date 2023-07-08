@@ -8,4 +8,4 @@
     PATH: /usr/local/bin:/usr/bin:/bin:/usr/games:{{add_path}}    #:{{ ansible_env.PATH }}
 
   roles:
-    - Visual Studio Code/Extension/Ansible
+    - Visual Studio Code/Extension
