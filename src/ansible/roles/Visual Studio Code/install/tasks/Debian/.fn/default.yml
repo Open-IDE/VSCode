@@ -1,0 +1,5 @@
+- name: Set default
+  ansible.builtin.set_fact:
+    source: "{{source | default('snap')}}"
+
+- include_tasks: ".fn/{{ source }}.yml"
