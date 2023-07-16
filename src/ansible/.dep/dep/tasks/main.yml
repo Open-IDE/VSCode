@@ -2,9 +2,6 @@
 
 - ansible.builtin.include_tasks: gitignore.yml
 
-- ansible.builtin.include_tasks: link in roles_dir.yml
-#   when: vagrant
-
 # Future
 # - ansible.builtin.include_tasks: galaxy.yml
 # - ansible.builtin.include_tasks: library.yml
@@ -12,3 +9,4 @@
 # Not Needed Anymore
 # - ansible.builtin.include_tasks: ansible.cfg.yml
 # - ansible.builtin.include_tasks: dynamic inventory.yml
+# - ansible.builtin.include_tasks: link in roles_dir.yml

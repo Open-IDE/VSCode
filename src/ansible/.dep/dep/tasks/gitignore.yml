@@ -11,7 +11,7 @@
     line: "!{{item}}"
     create: true
   loop:
-  - "pre"
+  - "dep"
   - "get"
 
 # - name: .gitignore mirror

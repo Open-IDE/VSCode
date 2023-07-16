@@ -3,4 +3,4 @@
   vars:
     vagrant: true
   roles:
-    - .dep/pre
+    - .dep/dep
