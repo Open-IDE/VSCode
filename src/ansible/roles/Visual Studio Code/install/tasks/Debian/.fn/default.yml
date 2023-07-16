@@ -1,5 +1,5 @@
 - ansible.builtin.include_role:
-    name: Snapcraft
+    name: .dep/Snapcraft
 
 - name: Set default
   ansible.builtin.set_fact:
