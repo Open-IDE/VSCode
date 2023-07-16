@@ -1,0 +1,5 @@
+---
+- name: Install community.general.sudoers
+  community.general.ansible_galaxy_install:
+    type: collection
+    name: community.general

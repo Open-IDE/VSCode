@@ -1,0 +1,22 @@
+- name: .gitignore all
+  ansible.builtin.lineinfile:
+    path: "{{playbook_dir}}/{{dep_home}}/.gitignore"
+    line: "*"
+    create: true
+
+- name: .gitignore !keep
+  ansible.builtin.lineinfile:
+    path: "{{playbook_dir}}/{{dep_home}}/.gitignore"
+    regexp: "^!{{item}}"
+    line: "!{{item}}"
+    create: true
+  loop:
+  - "pre"
+  - "get"
+
+# - name: .gitignore mirror
+#   ansible.builtin.lineinfile:
+#     path: "{{playbook_dir}}/{{dep_home}}/.gitignore"
+#     regexp: "^{{mirror}}"
+#     line: "{{mirror}}"
+#     create: true

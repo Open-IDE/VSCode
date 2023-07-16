@@ -1,0 +1,22 @@
+[local]
+localhost
+
+[local:vars]
+ansible_connection=local
+ansible_user=me
+ansible_become_password=u
+
+[template]
+xwaylandTemplate
+waylandTemplate
+
+[template:vars]
+ansible_connection=lxd
+
+
+; [remote]
+; 192.168.122.4
+
+; [remote:vars]
+; ansible_user=me
+; ansible_become_password=u

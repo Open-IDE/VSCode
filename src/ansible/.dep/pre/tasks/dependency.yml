@@ -1,0 +1,21 @@
+- name: git checkout
+  ansible.builtin.git:
+    repo: "{{item.repo}}"
+    dest: "{{git_dir}}/{{item.name}}"
+    update: "{{git_fetch_update}}"
+  loop: "{{repo}}"
+
+- name: create dirs
+  ansible.builtin.file:
+    path: "{{item}}"
+    state: directory
+  loop:
+  - "{{role_dir}}"
+  - "{{artifact_dir}}"
+
+- name: link dependency roles
+  ansible.builtin.file:
+    src: "{{git_dir}}/{{item.git}}/{{item.path}}"
+    dest: "{{role_dir}}/{{item.name}}"
+    state: link
+  loop: "{{role}}"

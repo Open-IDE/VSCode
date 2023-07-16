@@ -1,0 +1,6 @@
+- name: Get dependencies
+  hosts: localhost
+  vars:
+    vagrant: true
+  roles:
+    - .dep/pre
