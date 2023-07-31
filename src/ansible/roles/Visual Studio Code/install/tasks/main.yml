@@ -1,1 +1,6 @@
+- name: Is Code installed?
+  shell: which code
+  register: which
+
 - include_tasks: "{{ ansible_os_family }}/{{ ansible_distribution }}/main.yml"
+  when: not which.rc == 0
