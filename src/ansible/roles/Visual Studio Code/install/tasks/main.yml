@@ -1,6 +1,7 @@
-- name: Is Code installed?
+- name: Is Code Already installed?
   shell: which code
   register: which
+  changed_when: false
 
 - include_tasks: "{{ ansible_os_family }}/{{ ansible_distribution }}/main.yml"
   when: not which.rc == 0
