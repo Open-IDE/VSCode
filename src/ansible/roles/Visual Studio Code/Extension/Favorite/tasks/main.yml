@@ -1,13 +1,13 @@
 - name: Ansible VS Code Extension by Red Hat
   ansible.builtin.shell: code --install-extension redhat.ansible
   args:
-    creates: "{{ lookup('ansible.builtin.env', 'HOME') }}/.vscode/extensions/redhat.ansible-*"
+    creates: "{{ ansible_env.HOME }}/.vscode/extensions/redhat.ansible-*"
 
 
 - name: Favorite Ansible Extensions
   ansible.builtin.shell: "code --install-extension {{item}}"
   args:
-    creates: "{{ lookup('ansible.builtin.env', 'HOME') }}/.vscode/extensions/{{item}}-*"
+    creates: "{{ ansible_env.HOME }}/.vscode/extensions/{{item}}-*"
   loop:
   - redhat.ansible
   - ms-python.python
