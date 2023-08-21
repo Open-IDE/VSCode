@@ -6,10 +6,10 @@
 - name: Download .deb package
   ansible.builtin.get_url:
     url: "{{debian_download_url}}"
-    dest: "{{ansible_env.HOME}}/Downloads/code.deb"
+    dest: "{{ download_dir }}/code.deb"
     mode: '0744'
 
 - name: Install .deb package
   ansible.builtin.apt:
-    deb: "{{ansible_env.HOME}}/Downloads/code.deb"
+    deb: "{{ download_dir }}/code.deb"
   become: true
