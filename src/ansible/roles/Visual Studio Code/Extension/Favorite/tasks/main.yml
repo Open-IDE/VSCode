@@ -11,4 +11,6 @@
   loop:
   - redhat.ansible
   - ms-python.python
-  notify: Install Ansible Lint
+
+- name: Install Ansible Lint
+  include_tasks: ansible-lint.yml
