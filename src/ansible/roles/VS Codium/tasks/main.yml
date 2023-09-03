@@ -1,0 +1,7 @@
+# https://flathub.org/apps/com.vscodium.codium
+- name: Install VSCodium
+  community.general.flatpak:
+    name: com.vscodium.codium
+    state: present
+    method: user
+  when: Debug
