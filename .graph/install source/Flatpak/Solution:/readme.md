@@ -16,3 +16,5 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 >  "LD_PRELOAD": null,
 >},
 >```
+
+Relation: https://code.visualstudio.com/docs/getstarted/settings#_settingsjson
