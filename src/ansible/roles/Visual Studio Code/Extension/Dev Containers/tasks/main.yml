@@ -1,0 +1,11 @@
+#- name: Ansible VS Code Extension by Red Hat
+#  ansible.builtin.shell: code --install-extension ms-vscode-remote.remote-containers
+#  args:
+#    creates: "{{ ansible_env.HOME }}/.vscode/extensions/remote.remote-containers*"
+
+- name: Favorite Ansible Extensions
+  ansible.builtin.shell: "code --install-extension {{item}}"
+  args:
+    creates: "{{ ansible_env.HOME }}/.vscode/extensions/{{item}}-*"
+  loop:
+  - ms-vscode-remote.remote-containers
