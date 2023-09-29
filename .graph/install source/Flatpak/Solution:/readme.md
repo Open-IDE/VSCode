@@ -17,5 +17,6 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 >},
 >```
 
-Relation: settings.json
+## Relation: settings.json
 - sch: https://www.google.com/search?q=vscode+settings.json
+- https://stackoverflow.com/questions/65908987/how-to-open-visual-studio-codes-settings-json-file
