@@ -17,4 +17,5 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 >},
 >```
 
-Relation: https://code.visualstudio.com/docs/getstarted/settings#_settingsjson
+Relation: settings.json
+- sch: https://www.google.com/search?q=vscode+settings.json
