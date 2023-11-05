@@ -19,7 +19,7 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 >```
 
 # Problem: /usr/bin/{app} not found
-src: https://www.google.com/search?q=flatpak+vscode+bin+not+found
+src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://www.google.com/search?q=flatpak+vscode+bin+not+found
 
 ## Try:
 - https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/
