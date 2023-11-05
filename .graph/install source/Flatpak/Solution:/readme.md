@@ -22,6 +22,12 @@ src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://w
 ## Solution:
 https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c7
 
+## Solution: SDK extension
+- https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/?rdt=64089
+
+## Solution: adding to path
+- https://www.reddit.com/r/flatpak/comments/lm2lln/vscode_cant_access_usrbin_despite_access_granted/
+
 ## Try:
 - https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/
 
