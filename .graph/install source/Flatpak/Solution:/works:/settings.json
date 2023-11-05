@@ -1,0 +1,8 @@
+# https://stackoverflow.com/questions/65908987/how-to-open-visual-studio-codes-settings-json-file
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.env.linux": {
+        "LD_PRELOAD": null,
+    },
+}
