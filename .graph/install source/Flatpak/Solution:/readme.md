@@ -19,7 +19,7 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 # Problem: /usr/bin/{app} not found
 src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://www.google.com/search?q=flatpak+vscode+bin+not+found
 
-## Best.Solution: Toolbox + Dev containers extension
+## Best.Solution: Toolbox + Remote Containers extension
 - https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c7
 - https://www.reddit.com/r/Fedora/comments/13ytxts/in_silverblue_how_to_let_vscode_access_a/
 - https://discussion.fedoraproject.org/t/toolbox-and-visual-studio-code-remote-containers/27987
