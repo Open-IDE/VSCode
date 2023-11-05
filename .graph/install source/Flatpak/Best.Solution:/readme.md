@@ -9,5 +9,5 @@ src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://w
 more:
 - https://discussion.fedoraproject.org/t/vscode-devcontainers/45874
 
-## Solution: Distrobox
+## Solution: Distrobox + VSCode Dev Containers extension
 https://github.com/89luca89/distrobox/blob/main/docs/posts/integrate_vscode_distrobox.md
