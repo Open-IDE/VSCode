@@ -18,6 +18,9 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 >},
 >```
 
+## Try:
+- https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/
+
 ## Relation: settings.json
 - sch: https://www.google.com/search?q=vscode+settings.json
 - https://stackoverflow.com/questions/65908987/how-to-open-visual-studio-codes-settings-json-file
