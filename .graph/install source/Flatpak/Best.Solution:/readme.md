@@ -11,7 +11,7 @@ more:
 - https://discussion.fedoraproject.org/t/vscode-devcontainers/45874
 
 source:
-- https://github.com/owtaylor/toolbox-vscode
+- unmaintained, but still useful. https://github.com/owtaylor/toolbox-vscode
 
 ## Distrobox + Dev Containers extension
 https://github.com/89luca89/distrobox/blob/main/docs/posts/integrate_vscode_distrobox.md
