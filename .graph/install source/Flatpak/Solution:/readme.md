@@ -19,7 +19,7 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 # Problem: /usr/bin/{app} not found
 src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://www.google.com/search?q=flatpak+vscode+bin+not+found
 
-## Solution:
+## Solution: Dev containers extension
 https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c7
 
 ## Solution: SDK extension
@@ -30,6 +30,7 @@ https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c
 
 ## Try:
 - https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/
+- Flatseal https://discussion.fedoraproject.org/t/how-do-i-get-vscodium-to-use-the-same-shell-environment-as-the-rest-of-my-system/80178/4
 
 ## Relation: settings.json
 - sch: https://www.google.com/search?q=vscode+settings.json
