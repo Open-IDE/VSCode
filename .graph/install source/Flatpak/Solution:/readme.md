@@ -1,14 +1,12 @@
 # install-source: Flatpak
-##  Guide:
-Top.Favorite!: https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c7
 
-# Problem: Terminal
+# Problem: Terminal "preload host spawn"
 sch: https://www.google.com/search?q=flatpak+vscode+terminal
 - https://www.google.com/search?q=preload-host-spawn-strategy%5D+Warning%3A+waitpid+override+ignores+groups
 
 Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 
-# Solution:
+## Solution:
 - works: https://github.com/flathub/com.visualstudio.code/issues/370#issuecomment-1666515496
 
 >My settings.json
@@ -20,6 +18,9 @@ Discuss: https://github.com/flathub/com.visualstudio.code/issues/370
 
 # Problem: /usr/bin/{app} not found
 src: https://www.google.com/search?q=flatpak+vscode+command+not+found, https://www.google.com/search?q=flatpak+vscode+bin+not+found
+
+## Solution:
+https://raduzaharia.medium.com/using-the-vscode-flatpak-distribution-a275d59ff1c7
 
 ## Try:
 - https://www.reddit.com/r/flatpak/comments/y58jbe/flatpak_vscode_not_allowing_use_of_certain/
