@@ -1,4 +1,4 @@
 # Install Extension via Command line
 example:
->"Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter."
->`ext install redhat.ansible`
+
+https://code.visualstudio.com/docs/editor/extension-marketplace#_command-line-extension-management
