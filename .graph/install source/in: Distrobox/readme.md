@@ -15,4 +15,8 @@ install(){
   sudo dnf install code
   # from: https://code.visualstudio.com/docs/setup/linux
 }
+
+export(){
+  distrobox-export --app code
+}
 ```
