@@ -21,4 +21,5 @@
     creates: rustup.rs
   loop:
   - "toolbox run --container {{ toolbox_container_name }} sudo dnf install ansible -y"
+  - "toolbox run --container {{ toolbox_container_name }} ansible-playbook uni.yml"
 
