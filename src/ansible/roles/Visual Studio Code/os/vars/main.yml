@@ -1,5 +1,0 @@
-ubuntu_default: "snapcraft"
-
-debian_download_url: "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
-
-download_dir: /tmp

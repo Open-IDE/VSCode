@@ -1,0 +1,5 @@
+source: "{{ubuntu_default}}"
+
+in_Toolbox: true
+
+toolbox_container_name: "fedora-toolbox-{{ ansible_distribution_version }}"

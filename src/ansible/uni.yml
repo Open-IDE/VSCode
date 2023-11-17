@@ -6,4 +6,4 @@
 
   roles:
   - Visual Studio Code
-  - Visual Studio Code/Extension
+  # - Visual Studio Code/Extension
