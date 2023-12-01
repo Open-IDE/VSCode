@@ -38,6 +38,6 @@
   ansible.builtin.include_tasks: Silverblue.yml
   when: Silverblue
 
-# - name: Fedora pkg
-#   ansible.builtin.include_tasks: rpm.yml
-#   when: not Silverblue and install_native
+- name: Fedora pkg
+  ansible.builtin.include_tasks: rpm.yml
+  when: not Silverblue # and install_native
