@@ -1,0 +1,3 @@
+dependencies:
+- language server/clangd/install
+- VSCode Extension/Clangd

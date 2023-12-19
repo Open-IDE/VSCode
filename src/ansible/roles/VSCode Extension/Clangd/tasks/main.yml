@@ -1,0 +1,8 @@
+---
+# https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd
+# https://clangd.llvm.org/installation#editor-plugins
+
+- name: Clangd extension
+  ansible.builtin.shell: code --install-extension llvm-vs-code-extensions.vscode-clangd
+  args:
+    creates: "{{ ansible_env.HOME }}/.vscode/extensions/llvm-vs-code-extensions.*"

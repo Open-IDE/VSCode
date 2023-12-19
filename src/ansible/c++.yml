@@ -1,0 +1,9 @@
+---
+- hosts: localhost #, fedora, ubuntu
+  vars:
+    foo: bar
+    ansible_become_password: u
+  roles:
+  - Visual Studio Code
+  # - Visual Studio Code/Extension
+  - language server/Clangd
