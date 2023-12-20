@@ -1,0 +1,7 @@
+- name: Enable Autosave
+  ansible.builtin.blockinfile:
+    path: "{{ settings_path }}"
+    block: |
+      {
+          "files.autoSave": "{{ autosave_mode }}"
+      }

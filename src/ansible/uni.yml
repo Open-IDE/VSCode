@@ -5,4 +5,5 @@
     ansible_become_password: u
   roles:
   - Visual Studio Code
+  - setting/Autosave
   # - Visual Studio Code/Extension
