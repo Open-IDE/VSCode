@@ -1,27 +1,7 @@
-# keep: unsafe
-# sch:
-# - https://www.google.com/search?q=ansible+blockinfile+replacing+double+quotes+with+single
-# - https://www.google.com/search?q=ansible+blockinfile+unsafe
-# Solution:
-# - https://stackoverflow.com/questions/76839601/stop-ansible-from-replacing-double-quotes-with-single-quotes
-# keep: Bug https://github.com/ansible/ansible/issues/40476, https://github.com/ansible/ansible/issues/34595
-- name: Enable Autosave - Only thing that works is to insert with quote & Replace afterward
-  ansible.builtin.blockinfile:
-    path: "{{ settings_path }}"
-    create: true
-    block: |
-      `{
-        "files.autoSave": "{{ autosave_mode }}"
-      }`
-
-- name: Replace 1
-  ansible.builtin.replace:
-    path: "{{ settings_path }}"
-    regexp: '`{'
-    replace: '{'
-
-- name: Replace 2
-  ansible.builtin.replace:
-    path: "{{ settings_path }}"
-    regexp: '}`'
-    replace: '}'
+- name: Template settings.json
+  ansible.builtin.template:
+    src: settings.json.j2
+    dest: "{{ settings_path }}"
+    owner: "{{ ansible_env.USER }}"
+    group: "{{ ansible_env.USER }}"
+    mode: '0644'
