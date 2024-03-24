@@ -3,7 +3,3 @@ download_deb_x86: "https://code.visualstudio.com/sha/download?build=stable&os=li
 flatpak_home: "/var/lib/flatpak/app/com.visualstudio.code/current/active/files/bin"
 
 ubuntu_default: "snapcraft"
-
-debian_download_url: "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
-
-download_dir: /tmp

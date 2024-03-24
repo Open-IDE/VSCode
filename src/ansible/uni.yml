@@ -4,6 +4,7 @@
     foo: bar
     ansible_become_password: u
   roles:
-  - Visual Studio Code
+#  - Visual Studio Code
+  - UniInc.ansible-role-Visual-Studio-Code
   - setting/Autosave
   # - Visual Studio Code/Extension
