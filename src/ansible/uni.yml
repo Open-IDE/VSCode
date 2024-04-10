@@ -1,10 +1,9 @@
 ---
-- hosts: localhost #, fedora, ubuntu
+- hosts: localhost
   vars:
-    foo: bar
     ansible_become_password: u
   roles:
-#  - Visual Studio Code
+  # - ansible-role-Visual-Studio-Code
   - UniInc.ansible-role-Visual-Studio-Code
   - setting/Autosave
   # - Visual Studio Code/Extension
