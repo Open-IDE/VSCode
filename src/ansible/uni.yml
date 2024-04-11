@@ -1,7 +1,5 @@
 ---
 - hosts: localhost
-  vars:
-    ansible_become_password: u
   roles:
   - UniInc.Visual-Studio-Code
   # - VSCode Setting/Autosave
