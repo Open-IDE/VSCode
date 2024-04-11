@@ -3,7 +3,6 @@
   vars:
     ansible_become_password: u
   roles:
-  # - ansible-role-Visual-Studio-Code
-  - UniInc.ansible-role-Visual-Studio-Code
-  - setting/Autosave
-  # - Visual Studio Code/Extension
+  - UniInc.Visual-Studio-Code
+  # - VSCode Setting/Autosave
+  # - VSCode Extension
