@@ -1,3 +1,3 @@
-ansible-galaxy install -r requirements.yml
+ansible-galaxy install -r roles/requirements.yml
 
-ansible-playbook uni.yml
+#ansible-playbook uni.yml
