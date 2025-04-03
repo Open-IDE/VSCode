@@ -1,6 +1,7 @@
 ---
 - hosts: localhost
   roles:
-  - UniInc.Visual-Studio-Code
+  - ansible-role-Visual-Studio-Code
+#  - UniInc.Visual-Studio-Code
   # - VSCode Setting/Autosave
   # - VSCode Extension
