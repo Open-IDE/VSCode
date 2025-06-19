@@ -3,7 +3,7 @@
   roles:
   - dev/ansible-role-Visual-Studio-Code
   - dev/ansible-role-VSCode-Setting
-  - dev/ansible-role-VSCode-Extension
+#  - dev/ansible-role-VSCode-Extension
 #  - UniInc.Visual-Studio-Code
   # - VSCode Setting/Autosave
   # - VSCode Extension
