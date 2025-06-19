@@ -1,1 +1,0 @@
-settings_path: "{{ ansible_env.HOME }}/.config/Code/User/settings.json"
